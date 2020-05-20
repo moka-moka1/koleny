@@ -1,0 +1,158 @@
+body {
+ margin: 0;
+ position: relative;
+ }
+a:link {
+ color: #FFF;
+ }
+a:visited {
+ color: #0FF;
+ }
+a:active {
+ color: #CCC;
+ }
+div {
+ font-family: Arial, sans-serif;
+ font-size: small;
+ margin: 2px;
+ }
+div.logo {
+ background-color: #039;
+ left: 0px; top: 0px;
+ position: absolute;
+ border: solid white 1px;
+ margin: 0;
+ }
+div.header {
+ display: table;
+ width: 95%;
+ margin: 0 0 0 56px;
+ }
+div.header div.tagline {
+ background-color: #FC9;
+ text-align: center;
+ color: #804040;
+ font-size: 144%;
+ font-family: Verdana, sans-serif;
+ }
+div.header ul {
+ list-style-type: none;
+ display: inline;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ border-right: solid white 2px;
+ }
+div.header ul li {
+ float: left;
+ width: 14%;
+ text-align: center;
+ }
+div.header ul li a {
+ display: block;
+ height: 27px;
+ padding: 10px 0 0 0;
+ background-color: #069;
+ text-decoration: none;
+ font-size: small;
+ border-left: solid white 2px;
+ }
+div.header ul li a:hover {
+ color: #CCC;
+ background-color: #036;
+ }
+div.main {
+ display: table;
+ width: 99%;
+ }
+div.sidebar {
+ display: table-cell;
+ background-color: #099;
+ width: 23%;
+ font-size: 1em;
+ }
+div.sidebar ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ }
+div.sidebar ul li:first-child {
+ color: #FFF;
+ font-weight: bold;
+ background-color: #F99;
+ }
+div.sidebar ul li {
+ font-size: 1.1em;
+ border: solid white 1px;
+ }
+div.sidebar ul li a {
+ display: block;
+ text-decoration: none;
+ }
+div.sidebar ul li a:hover {
+ text-decoration: underline;
+ color: #CCC;
+ background-color: #066;
+ }
+div.mapsection {
+ display: table-cell;
+ background-color: #FFC;
+ width: 53%;
+ text-align: center;
+ }
+div.mapsection span {
+ color: #900;
+ }
+div.mapsection img {
+ padding: 50px 0 0 0;
+ }
+div.basedon {
+ margin: 15px;
+ color: #009;
+ text-align: center;
+ font-size: small;
+ font-family: Verdana, sans-serif;
+ }
+div.disclaimer {
+ padding: 15px 75px;
+ text-align: center;
+ color: #009;
+ font-family: Verdana, sans-serif;
+ font-size: small;
+ }
+div.disclaimer span:first-child {
+ color: #F00;
+ }
+div.copyright {
+ background-color: #933;
+ text-align: center;
+ color: #FFC;
+ padding: 5px 10px;
+ font-size: 71%;
+ font-family: Verdana, sans-serif;
+ }
+div.statistics {
+ color: #000;
+ font-size: 80%;
+ font-family: Verdana, sans-serif;
+ }
+div.statistics span.kem {
+ font-family: "Times Roman", serif;
+ font-weight: bold;
+ font-style: italic;
+ font-size: medium;
+ }
+div.poweredby {
+ background-color: #099;
+ text-align: right;
+ font-size: x-small;
+ padding: 2px;
+ }
+div.videocontainer {
+ background-color: #CC8898;
+}
+div.videocontainer iframe {
+ padding: 150px;
+ display: block;
+ margin: auto;
+}
